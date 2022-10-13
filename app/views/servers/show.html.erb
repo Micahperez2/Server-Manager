@@ -1,0 +1,14 @@
+<h1><%= @server.title %></h1>
+
+<p><%= @server.model_number %></p>
+
+<p><%= @server.description %></p>
+
+
+<ul>
+  <li><%= link_to "Edit", edit_server_path(@server) %></li>
+  <li><%= link_to "Destroy", server_path(@server), data: {
+                            turbo_method: :delete, 
+                            turbo_confirm: "Are you sure?"
+                        } %></li>
+</ul>

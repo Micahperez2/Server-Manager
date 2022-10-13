@@ -1,0 +1,11 @@
+<h1>Servers</h1>
+
+<ul>
+  <% @servers.each do |server| %>
+    <li>
+      <%= link_to server.title, server %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Server", new_server_path %>

@@ -1,0 +1,32 @@
+<%= form_with model: @server do |form| %>
+    <div>
+        <%= form.label :title %><br>
+        <%= form.text_field :title %>
+        <% @server.errors.full_messages_for(:title).each do 
+            |message| %>
+            <div><%= message %></div>
+        <% end %>
+    </div>
+
+    <div>
+        <%= form.label :model_number %><br>
+        <%= form.text_area :model_number %><br>
+        <% @server.errors.full_messages_for(:model_number).each do 
+            |message| %>
+            <div><%= message %></div>
+        <% end %>
+    </div>
+
+    <div>
+        <%= form.label :description %><br>
+        <%= form.text_area :description %><br>
+        <% @server.errors.full_messages_for(:description).each do 
+            |message| %>
+            <div><%= message %></div>
+        <% end %>
+    </div>
+
+    <div>
+        <%= form.submit %>
+    </div>
+<% end %>
