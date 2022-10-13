@@ -10,13 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_02_044941) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_13_180245) do
+  create_table "drives", force: :cascade do |t|
+    t.string "name"
+    t.integer "capacity"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "servers", force: :cascade do |t|
     t.string "title"
     t.string "model_number"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "in_use"
   end
 
 end

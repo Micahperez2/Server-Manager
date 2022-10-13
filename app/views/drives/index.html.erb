@@ -1,0 +1,11 @@
+<h1>Drives</h1>
+
+<ul>
+  <% @drives.each do |drive| %>
+    <li>
+      <%= link_to drive.name, drive %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Back Home", root_path %>
