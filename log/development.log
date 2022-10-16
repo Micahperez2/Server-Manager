@@ -8188,3 +8188,1731 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 63ms (Views: 56.0ms | ActiveRecord: 0.0ms | Allocations: 3745)
 
 
+Started GET "/" for ::1 at 2022-10-15 18:25:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 443)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4112)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 9861)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2022-10-15 18:35:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 443)
+  Rendered layout layouts/application.html.erb (Duration: 4251.4ms | Allocations: 168573)
+Completed 200 OK in 4362ms (Views: 4269.5ms | ActiveRecord: 0.0ms | Allocations: 174351)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 18:35:58 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 821)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 7615)
+Completed 200 OK in 52ms (Views: 47.2ms | ActiveRecord: 0.6ms | Allocations: 8373)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:35:59 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 6862)
+Completed 200 OK in 43ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 7132)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 18:36:00 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.6ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 757)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 7552)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.6ms | Allocations: 8309)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:36:01 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6860)
+Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 7138)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:36:40 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 215)
+  Rendered layout layouts/application.html.erb (Duration: 93.5ms | Allocations: 10006)
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.0ms | Allocations: 10938)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:39:19 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 39.6ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 487.6ms | Allocations: 11347)
+Completed 200 OK in 503ms (Views: 500.0ms | ActiveRecord: 0.0ms | Allocations: 12278)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:39:28 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 98.5ms | Allocations: 6898)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms | Allocations: 7175)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:39:30 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 6880)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 7148)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 18:39:31 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (6.5ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 792)
+  Rendered layout layouts/application.html.erb (Duration: 56.8ms | Allocations: 7584)
+Completed 200 OK in 63ms (Views: 54.7ms | ActiveRecord: 6.5ms | Allocations: 8330)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:39:32 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 66.4ms | Allocations: 6893)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms | Allocations: 7163)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:41:03 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 10841)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 11772)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:41:39 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 7256)
+Completed 200 OK in 66ms (Views: 57.9ms | ActiveRecord: 0.0ms | Allocations: 8187)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:41:44 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 7247)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 8179)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:44:36 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 33.8ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 127.3ms | Allocations: 7359)
+Completed 200 OK in 134ms (Views: 130.7ms | ActiveRecord: 0.0ms | Allocations: 8291)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:45:11 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 6872)
+Completed 200 OK in 34ms (Views: 31.7ms | Allocations: 7140)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:45:13 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 6859)
+Completed 200 OK in 20ms (Views: 19.8ms | Allocations: 7126)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:45:18 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 65.1ms | Allocations: 9495)
+Completed 200 OK in 69ms (Views: 67.4ms | Allocations: 10426)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:45:34 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 31.2ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 70.1ms | Allocations: 7272)
+Completed 200 OK in 73ms (Views: 72.1ms | Allocations: 8203)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:46:11 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6849)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 7117)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:54:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 70.5ms | Allocations: 6847)
+Completed 200 OK in 76ms (Views: 74.0ms | Allocations: 7114)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:54:48 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 10166)
+Completed 200 OK in 81ms (Views: 79.2ms | Allocations: 11099)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:55:00 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 115.8ms | Allocations: 6864)
+Completed 200 OK in 118ms (Views: 117.1ms | Allocations: 7134)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:55:01 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 75.1ms | Allocations: 6853)
+Completed 200 OK in 77ms (Views: 75.7ms | Allocations: 7122)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:55:23 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 35.9ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 242.1ms | Allocations: 7185)
+Completed 200 OK in 246ms (Views: 244.6ms | Allocations: 8116)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:55:25 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 63.9ms | Allocations: 6811)
+Completed 200 OK in 65ms (Views: 64.4ms | Allocations: 7082)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:55:40 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 287)
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 7327)
+Completed 200 OK in 38ms (Views: 34.8ms | Allocations: 8258)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:56:39 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 40.2ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 71.6ms | Allocations: 7329)
+Completed 200 OK in 78ms (Views: 75.1ms | Allocations: 8260)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:57:30 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 7336)
+Completed 200 OK in 19ms (Views: 17.4ms | Allocations: 8268)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:57:38 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 7313)
+Completed 200 OK in 38ms (Views: 36.4ms | Allocations: 8244)
+
+
+Started GET "/" for ::1 at 2022-10-15 18:58:05 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 58.3ms | Allocations: 7312)
+Completed 200 OK in 64ms (Views: 61.2ms | Allocations: 8243)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:00:24 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 7422)
+Completed 200 OK in 24ms (Views: 22.3ms | Allocations: 8353)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:00:45 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 7315)
+Completed 200 OK in 36ms (Views: 34.5ms | Allocations: 8246)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:00:55 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 7309)
+Completed 200 OK in 46ms (Views: 44.3ms | Allocations: 8240)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:01:24 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 330)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 7357)
+Completed 200 OK in 41ms (Views: 37.3ms | Allocations: 8288)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 19:01:27 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (4.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 913)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 7704)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 5.9ms | Allocations: 8450)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:01:29 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 6895)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms | Allocations: 7165)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:01:59 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 138.1ms | Allocations: 374)
+  Rendered layout layouts/application.html.erb (Duration: 231.7ms | Allocations: 7410)
+Completed 200 OK in 235ms (Views: 233.6ms | ActiveRecord: 0.0ms | Allocations: 8342)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:02:08 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 265)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 7296)
+Completed 200 OK in 52ms (Views: 47.2ms | ActiveRecord: 0.0ms | Allocations: 8229)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:02:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 101.5ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 187.0ms | Allocations: 7400)
+Completed 200 OK in 192ms (Views: 190.5ms | ActiveRecord: 0.0ms | Allocations: 8332)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 19:02:37 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (1.2ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 747)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 7545)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 1.2ms | Allocations: 8291)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 19:02:38 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 792)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 7582)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 8328)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:22:45 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 27.0ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 93.9ms | Allocations: 9531)
+Completed 200 OK in 106ms (Views: 97.3ms | Allocations: 10463)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:23:04 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 101.5ms | Allocations: 10010)
+Completed 200 OK in 105ms (Views: 103.8ms | Allocations: 10941)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:23:11 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 99.9ms | Allocations: 7285)
+Completed 200 OK in 104ms (Views: 101.9ms | Allocations: 8216)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:23:28 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 94.5ms | Allocations: 9965)
+Completed 200 OK in 97ms (Views: 96.2ms | Allocations: 10896)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:25:25 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 19.3ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 155.8ms | Allocations: 10891)
+Completed 200 OK in 166ms (Views: 162.6ms | Allocations: 11822)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:25:36 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 55.4ms | Allocations: 10448)
+Completed 200 OK in 60ms (Views: 58.4ms | Allocations: 11379)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:28:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 26.3ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 165.2ms | Allocations: 7289)
+Completed 200 OK in 177ms (Views: 174.8ms | Allocations: 8220)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:28:39 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 7285)
+Completed 200 OK in 29ms (Views: 26.5ms | Allocations: 8216)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:29:19 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 7290)
+Completed 200 OK in 41ms (Views: 39.2ms | Allocations: 8221)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:29:42 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 126.8ms | Allocations: 7299)
+Completed 200 OK in 131ms (Views: 129.1ms | Allocations: 8231)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:32:15 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 6883)
+Completed 200 OK in 79ms (Views: 73.9ms | Allocations: 7151)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:32:59 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 257)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 7305)
+Completed 200 OK in 49ms (Views: 47.4ms | Allocations: 8237)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:33:07 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 42.0ms | Allocations: 7278)
+Completed 200 OK in 52ms (Views: 44.3ms | Allocations: 8209)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:35:15 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 19.3ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 112.1ms | Allocations: 11327)
+Completed 200 OK in 120ms (Views: 116.8ms | Allocations: 12258)
+
+
+Started GET "/" for ::1 at 2022-10-15 19:35:21 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 108.2ms | Allocations: 7287)
+Completed 200 OK in 112ms (Views: 110.1ms | Allocations: 8219)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:12:57 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 101.4ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 886.5ms | Allocations: 10064)
+Completed 200 OK in 894ms (Views: 890.5ms | Allocations: 10995)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:13:21 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 34.1ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 228.5ms | Allocations: 7238)
+Completed 200 OK in 233ms (Views: 230.7ms | Allocations: 8170)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:24:01 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 7369)
+Completed 200 OK in 50ms (Views: 45.8ms | Allocations: 8300)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:24:48 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 352)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 7380)
+Completed 200 OK in 29ms (Views: 27.9ms | Allocations: 8311)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:25:06 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 49.7ms | Allocations: 356)
+  Rendered layout layouts/application.html.erb (Duration: 199.8ms | Allocations: 7489)
+Completed 200 OK in 204ms (Views: 201.9ms | Allocations: 8420)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:47:54 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 62.1ms | Allocations: 6878)
+Completed 200 OK in 67ms (Views: 63.1ms | Allocations: 7146)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:49:36 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 398)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 7427)
+Completed 200 OK in 43ms (Views: 33.3ms | Allocations: 8358)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:50:08 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 7421)
+Completed 200 OK in 42ms (Views: 41.0ms | Allocations: 8352)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:50:26 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 7430)
+Completed 200 OK in 75ms (Views: 71.0ms | Allocations: 8361)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:50:41 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 39.1ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 97.4ms | Allocations: 7552)
+Completed 200 OK in 101ms (Views: 99.5ms | Allocations: 8484)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:51:11 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 32.0ms | Allocations: 402)
+  Rendered layout layouts/application.html.erb (Duration: 160.5ms | Allocations: 7449)
+Completed 200 OK in 172ms (Views: 163.0ms | Allocations: 8381)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:51:16 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 7546)
+Completed 200 OK in 58ms (Views: 56.6ms | Allocations: 8478)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:51:55 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 57.0ms | Allocations: 447)
+  Rendered layout layouts/application.html.erb (Duration: 112.9ms | Allocations: 7485)
+Completed 200 OK in 117ms (Views: 115.0ms | Allocations: 8416)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 20:51:59 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 907)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 7699)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 1.4ms | Allocations: 8445)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:52:00 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 6920)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 7190)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:52:16 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 7345)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.0ms | Allocations: 8277)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:53:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 86.1ms | Allocations: 304)
+  Rendered layout layouts/application.html.erb (Duration: 273.2ms | Allocations: 7336)
+Completed 200 OK in 276ms (Views: 274.7ms | ActiveRecord: 0.0ms | Allocations: 8267)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:54:38 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 406)
+  Rendered layout layouts/application.html.erb (Duration: 76.5ms | Allocations: 7426)
+Completed 200 OK in 80ms (Views: 78.2ms | ActiveRecord: 0.0ms | Allocations: 8357)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:54:49 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 74.1ms | Allocations: 6866)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms | Allocations: 7134)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 20:54:51 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (1.6ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 747)
+  Rendered layout layouts/application.html.erb (Duration: 64.5ms | Allocations: 7639)
+Completed 200 OK in 70ms (Views: 67.7ms | ActiveRecord: 1.6ms | Allocations: 8385)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:54:52 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 6878)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 7148)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 20:54:59 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 567)
+  Rendered layout layouts/application.html.erb (Duration: 48.2ms | Allocations: 7493)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.4ms | Allocations: 7750)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:55:00 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 86.7ms | Allocations: 6847)
+Completed 200 OK in 88ms (Views: 87.3ms | ActiveRecord: 0.0ms | Allocations: 7116)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 20:55:02 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 7338)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.3ms | Allocations: 7594)
+
+
+Started GET "/" for ::1 at 2022-10-15 20:55:04 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 6974)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 7244)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:15:31 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 410)
+  Rendered layout layouts/application.html.erb (Duration: 92.2ms | Allocations: 9194)
+Completed 200 OK in 96ms (Views: 94.4ms | Allocations: 10125)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:15:33 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (2.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 987)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 7913)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 2.9ms | Allocations: 8660)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:15:34 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 6877)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 7147)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:15:38 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 107.0ms | Allocations: 7429)
+Completed 200 OK in 117ms (Views: 115.6ms | ActiveRecord: 0.0ms | Allocations: 8360)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:15:40 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.5ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 868)
+  Rendered layout layouts/application.html.erb (Duration: 42.0ms | Allocations: 7661)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.5ms | Allocations: 8407)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:15:41 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 6875)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 7146)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 21:15:42 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.5ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 748)
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 7544)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.5ms | Allocations: 8290)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:15:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 6877)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms | Allocations: 7148)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:15:44 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 595)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 7396)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 7653)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:16:04 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 589)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 7371)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.4ms | Allocations: 7627)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:16:05 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 6860)
+Completed 200 OK in 60ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 7129)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:23:02 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 119.0ms | Allocations: 7527)
+Completed 200 OK in 123ms (Views: 121.3ms | Allocations: 8458)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:23:03 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 983)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 7778)
+Completed 200 OK in 40ms (Views: 36.3ms | ActiveRecord: 0.9ms | Allocations: 8524)
+
+
+Started GET "/servers/new" for ::1 at 2022-10-15 21:23:05 -0700
+Processing by ServersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/new.html.erb within layouts/application
+  Rendered servers/_form.html.erb (Duration: 133.6ms | Allocations: 3739)
+  Rendered servers/new.html.erb within layouts/application (Duration: 135.7ms | Allocations: 3972)
+  Rendered layout layouts/application.html.erb (Duration: 163.9ms | Allocations: 10721)
+Completed 200 OK in 198ms (Views: 164.4ms | ActiveRecord: 10.3ms | Allocations: 29390)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:23:08 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 6989)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 7260)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:23:09 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 592)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 7384)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.4ms | Allocations: 7642)
+
+
+Started GET "/servers/new" for ::1 at 2022-10-15 21:23:10 -0700
+Processing by ServersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/new.html.erb within layouts/application
+  Rendered servers/_form.html.erb (Duration: 2.0ms | Allocations: 1237)
+  Rendered servers/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 8027)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 8287)
+
+
+Started POST "/servers" for ::1 at 2022-10-15 21:23:31 -0700
+Processing by ServersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "server"=>{"title"=>"Test Server 123", "model_number"=>"123456789", "description"=>"Hello World!!!"}, "commit"=>"Create Server"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/servers_controller.rb:17:in `create'
+  [1m[36mServer Create (4.7ms)[0m  [1m[32mINSERT INTO `servers` (`title`, `model_number`, `description`, `created_at`, `updated_at`, `in_use`) VALUES ('Test Server 123', '123456789', 'Hello World!!!', '2022-10-16 04:23:31.757071', '2022-10-16 04:23:31.757071', NULL)[0m
+  ↳ app/controllers/servers_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/servers_controller.rb:17:in `create'
+Redirected to http://localhost:3000/servers/1
+Completed 302 Found in 14ms (ActiveRecord: 6.6ms | Allocations: 3275)
+
+
+Started GET "/servers/1" for ::1 at 2022-10-15 21:23:31 -0700
+Processing by ServersController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mServer Load (0.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers` WHERE `servers`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/servers_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering servers/show.html.erb within layouts/application
+  Rendered servers/show.html.erb within layouts/application (Duration: 5.3ms | Allocations: 322)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 7104)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 0.9ms | Allocations: 9604)
+
+
+Started GET "/servers/1" for ::1 at 2022-10-15 21:23:34 -0700
+Processing by ServersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers` WHERE `servers`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/servers_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering servers/show.html.erb within layouts/application
+  Rendered servers/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6883)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.4ms | Allocations: 7591)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:23:36 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 4579)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 4646)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.6ms | Allocations: 4880)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    16:       </p>
+    17:       <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+    18:       <p class="text-gray-700 text-base"> 
+    19:       <%= link_to server.description server %>
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+  
+app/views/servers/index.html.erb:19
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 21:25:09 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1824)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1891)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.4ms | Allocations: 2786)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    16:       </p>
+    17:       <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+    18:       <p class="text-gray-700 text-base"> 
+    19:       <%= link_to server.description server %>
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+  
+app/views/servers/index.html.erb:19
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 21:27:19 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1824)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1891)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 2785)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    16:       </p>
+    17:       <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+    18:       <p class="text-gray-700 text-base"> 
+    19:       <%= server.description server %>
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+  
+app/views/servers/index.html.erb:19
+app/views/servers/index.html.erb:4
+Started GET "/" for ::1 at 2022-10-15 21:27:21 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 406)
+  Rendered layout layouts/application.html.erb (Duration: 216.3ms | Allocations: 7575)
+Completed 200 OK in 234ms (Views: 219.4ms | ActiveRecord: 0.0ms | Allocations: 8333)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 21:27:26 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (1.5ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 21.4ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 78.7ms | Allocations: 7536)
+Completed 200 OK in 82ms (Views: 78.9ms | ActiveRecord: 1.5ms | Allocations: 8282)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:27:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 75.3ms | Allocations: 6877)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms | Allocations: 7147)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:27:27 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1552)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1619)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms | Allocations: 1850)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    16:       </p>
+    17:       <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+    18:       <p class="text-gray-700 text-base"> 
+    19:       <%= server.description server %>
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+  
+app/views/servers/index.html.erb:19
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 21:30:39 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 2323)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2390)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.4ms | Allocations: 3284)
+
+
+  
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    16:       </p>
+    17:       <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+    18:       <p class="text-gray-700 text-base"> 
+    19:         <%= @server.description %>
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+  
+app/views/servers/index.html.erb:19
+app/views/servers/index.html.erb:4
+Started GET "/" for ::1 at 2022-10-15 21:30:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 7554)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.0ms | Allocations: 8311)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 21:30:47 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 746)
+  Rendered layout layouts/application.html.erb (Duration: 101.3ms | Allocations: 7538)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.4ms | Allocations: 8284)
+
+
+Started GET "/" for ::1 at 2022-10-15 21:30:48 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 113.3ms | Allocations: 6879)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms | Allocations: 7149)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 21:30:52 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2043)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2110)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 2341)
+
+
+  
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    16:       </p>
+    17:       <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+    18:       <p class="text-gray-700 text-base"> 
+    19:         <%= @server.description %>
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+  
+app/views/servers/index.html.erb:19
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 21:32:12 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 925)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 8083)
+Completed 200 OK in 53ms (Views: 49.0ms | ActiveRecord: 0.4ms | Allocations: 9001)
+
+
+Started GET "/img/jonathan.jpg" for ::1 at 2022-10-15 21:32:12 -0700
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-15 21:32:12 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/jonathan.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/servers" for ::1 at 2022-10-15 22:57:46 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 2833)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 2900)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.2ms | Allocations: 3794)
+
+
+  
+ActionView::Template::Error (The asset "bg/6.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('bg/6.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 22:57:48 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2417)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2484)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms | Allocations: 2715)
+
+
+  
+ActionView::Template::Error (The asset "bg/6.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('bg/6.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 22:58:25 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 30.1ms | Allocations: 2996)
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 3063)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.4ms | Allocations: 3958)
+
+
+  
+ActionView::Template::Error (The asset "test.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('test.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 22:58:27 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2697)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2764)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms | Allocations: 2995)
+
+
+  
+ActionView::Template::Error (The asset "test.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('test.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 22:58:28 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 35.3ms | Allocations: 2697)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 2764)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.4ms | Allocations: 2994)
+
+
+  
+ActionView::Template::Error (The asset "test.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('test.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 23:01:10 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 705.1ms | Allocations: 56769)
+  Rendered layout layouts/application.html.erb (Duration: 728.1ms | Allocations: 63811)
+Completed 200 OK in 736ms (Views: 731.8ms | ActiveRecord: 0.6ms | Allocations: 64729)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-15 23:01:11 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/servers" for ::1 at 2022-10-15 23:04:13 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (7.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 2716)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 2783)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 7.4ms | Allocations: 3677)
+
+
+  
+ActionView::Template::Error (The asset "images/test.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('images/test.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 23:04:14 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2417)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2484)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms | Allocations: 2715)
+
+
+  
+ActionView::Template::Error (The asset "images/test.jpg" is not present in the asset pipeline.
+):
+    20:       </p>
+    21:     </div>
+    22:     <div class="flex items-center">
+    23:       <%= image_path('images/test.jpg') %>
+    24:       <!-- <img class="w-10 h-10 rounded-full mr-4" src="/img/test.jpg" alt="Avatar of Jonathan Reinink"> -->
+    25:       <div class="text-sm">
+    26:         <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+  
+app/views/servers/index.html.erb:23
+app/views/servers/index.html.erb:4
+Started GET "/servers" for ::1 at 2022-10-15 23:06:48 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1558)
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 8586)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 0.4ms | Allocations: 9504)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-15 23:06:48 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-15 23:07:04 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 7360)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 8120)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 23:07:07 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 1265)
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 7937)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.3ms | Allocations: 8194)
+
+
+Started GET "/servers/new" for ::1 at 2022-10-15 23:56:58 -0700
+Processing by ServersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/new.html.erb within layouts/application
+  Rendered servers/_form.html.erb (Duration: 194.9ms | Allocations: 1658)
+  Rendered servers/new.html.erb within layouts/application (Duration: 203.7ms | Allocations: 1886)
+  Rendered layout layouts/application.html.erb (Duration: 292.6ms | Allocations: 8517)
+Completed 200 OK in 295ms (Views: 293.4ms | Allocations: 8831)
+
+
+Started POST "/servers" for ::1 at 2022-10-15 23:57:15 -0700
+Processing by ServersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "server"=>{"title"=>"Test Server 2", "model_number"=>"0987654", "description"=>"This is my second test"}, "commit"=>"Create Server"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/servers_controller.rb:17:in `create'
+  [1m[36mServer Create (5.9ms)[0m  [1m[32mINSERT INTO `servers` (`title`, `model_number`, `description`, `created_at`, `updated_at`, `in_use`) VALUES ('Test Server 2', '0987654', 'This is my second test', '2022-10-16 06:57:15.579937', '2022-10-16 06:57:15.579937', NULL)[0m
+  ↳ app/controllers/servers_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/servers_controller.rb:17:in `create'
+Redirected to http://localhost:3000/servers/2
+Completed 302 Found in 44ms (ActiveRecord: 7.4ms | Allocations: 2214)
+
+
+Started GET "/servers/2" for ::1 at 2022-10-15 23:57:15 -0700
+Processing by ServersController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mServer Load (0.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers` WHERE `servers`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/servers_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering servers/show.html.erb within layouts/application
+  Rendered servers/show.html.erb within layouts/application (Duration: 34.2ms | Allocations: 304)
+  Rendered layout layouts/application.html.erb (Duration: 78.8ms | Allocations: 7108)
+Completed 200 OK in 84ms (Views: 79.5ms | ActiveRecord: 0.9ms | Allocations: 7923)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:57:21 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 66.5ms | Allocations: 6882)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms | Allocations: 7151)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 23:57:22 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 1571)
+  Rendered layout layouts/application.html.erb (Duration: 140.5ms | Allocations: 8233)
+Completed 200 OK in 142ms (Views: 140.4ms | ActiveRecord: 0.6ms | Allocations: 8490)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-15 23:57:22 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-15 23:58:35 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 7580)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 8514)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 23:58:37 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1869)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 8668)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.3ms | Allocations: 9415)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:38 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 6889)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 7159)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:58:40 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.6ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 747)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7571)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.6ms | Allocations: 8317)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:41 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 6891)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 7161)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 23:58:42 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1580)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 8258)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.4ms | Allocations: 8516)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 6857)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 7126)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:58:44 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.7ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 7352)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.7ms | Allocations: 7609)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:48 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 6863)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms | Allocations: 7132)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:58:49 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (1.1ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 7354)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 1.1ms | Allocations: 7610)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:50 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 6859)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms | Allocations: 7129)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:58:51 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 7384)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.4ms | Allocations: 7640)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:53 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 6994)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 7264)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:58:54 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7384)
+Completed 200 OK in 15ms (Views: 12.3ms | ActiveRecord: 0.3ms | Allocations: 7641)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:55 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6853)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 7122)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:58:57 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 7354)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms | Allocations: 7610)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:58:58 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6871)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 7140)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:59:01 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 7354)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.3ms | Allocations: 7611)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:59:02 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 6866)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 7135)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:59:14 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 7351)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 7607)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:59:16 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 6873)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 7142)
+
+
+Started GET "/servers" for ::1 at 2022-10-15 23:59:19 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1572)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 8226)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.9ms | Allocations: 8482)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:59:24 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 6974)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 7244)
+
+
+Started GET "/drives" for ::1 at 2022-10-15 23:59:26 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 7390)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.3ms | Allocations: 7646)
+
+
+Started GET "/" for ::1 at 2022-10-15 23:59:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 6984)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 7254)
+
+
