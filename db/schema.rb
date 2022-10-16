@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_10_13_180245) do
-  create_table "drives", force: :cascade do |t|
+  create_table "drives", charset: "utf8mb3", force: :cascade do |t|
     t.string "name"
     t.integer "capacity"
     t.string "description"
@@ -19,7 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_13_180245) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "servers", force: :cascade do |t|
+  create_table "servers", charset: "utf8mb3", force: :cascade do |t|
     t.string "title"
     t.string "model_number"
     t.text "description"

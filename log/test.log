@@ -1,0 +1,62 @@
+Started GET "/" for 127.0.0.1 at 2022-10-14 20:14:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 429)
+  Rendered layout layouts/application.html.erb (Duration: 2775.2ms | Allocations: 93214)
+Completed 200 OK in 3027ms (Views: 2835.3ms | Allocations: 162265)
+Started GET "/" for 127.0.0.1 at 2022-10-14 20:14:33 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1445)
+Completed 200 OK in 4ms (Views: 2.0ms | Allocations: 1692)
+Started GET "/drives" for 127.0.0.1 at 2022-10-14 20:14:34 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (6.2ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  Rendered drives/index.html.erb within layouts/application (Duration: 230.9ms | Allocations: 2259)
+  Rendered layout layouts/application.html.erb (Duration: 231.0ms | Allocations: 2293)
+Completed 500 Internal Server Error in 274ms (ActiveRecord: 11.8ms | Allocations: 3006)
+Started GET "/drives" for 127.0.0.1 at 2022-10-14 20:14:34 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (8.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  Rendered drives/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 283)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 8.4ms | Allocations: 489)
+Started GET "/servers" for 127.0.0.1 at 2022-10-14 20:14:38 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (3.7ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  Rendered servers/index.html.erb within layouts/application (Duration: 79.2ms | Allocations: 458)
+  Rendered layout layouts/application.html.erb (Duration: 79.3ms | Allocations: 492)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 3.7ms | Allocations: 1198)
+Started GET "/servers" for 127.0.0.1 at 2022-10-14 20:14:38 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (4.8ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  Rendered servers/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 283)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 4.8ms | Allocations: 487)
+Started GET "/drives" for 127.0.0.1 at 2022-10-14 20:14:54 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (16.8ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  Rendered drives/index.html.erb within layouts/application (Duration: 32.8ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 289)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 16.8ms | Allocations: 503)
+Started GET "/drives" for 127.0.0.1 at 2022-10-14 20:14:54 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (6.2ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  Rendered drives/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 283)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 6.2ms | Allocations: 486)
