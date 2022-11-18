@@ -6,7 +6,7 @@ default: &default
   database: <%= ENV['DB_NAME'] %>
   username: <%= ENV['DB_USER'] %>
   password: <%= ENV['DB_PASSWORD'] %>
-  host: db 
+  host: 0.0.0.0
 
 development:
   adapter: mysql2

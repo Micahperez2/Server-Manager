@@ -9916,3 +9916,2058 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 7254)
 
 
+Started GET "/" for ::1 at 2022-10-16 00:22:24 -0700
+Started GET "/" for ::1 at 2022-10-16 00:22:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 702)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 662)
+  Rendered layout layouts/application.html.erb (Duration: 1826.2ms | Allocations: 127918)
+Completed 200 OK in 1880ms (Views: 1846.3ms | ActiveRecord: 0.0ms | Allocations: 134895)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 1830.8ms | Allocations: 129091)
+Completed 200 OK in 1893ms (Views: 1861.6ms | ActiveRecord: 0.0ms | Allocations: 135347)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 00:22:36 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (1.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 54.1ms | Allocations: 18022)
+  Rendered layout layouts/application.html.erb (Duration: 83.9ms | Allocations: 24762)
+Completed 200 OK in 90ms (Views: 77.6ms | ActiveRecord: 10.0ms | Allocations: 25520)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 00:22:36 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-16 00:22:38 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6884)
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7163)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 00:22:40 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 29.0ms | Allocations: 1572)
+  Rendered layout layouts/application.html.erb (Duration: 62.2ms | Allocations: 8239)
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.4ms | Allocations: 8505)
+
+
+Started GET "/" for ::1 at 2022-10-16 00:22:41 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 6871)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 7140)
+
+
+Started GET "/drives" for ::1 at 2022-10-16 00:22:43 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (1.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 77.8ms | Allocations: 759)
+  Rendered layout layouts/application.html.erb (Duration: 152.1ms | Allocations: 7559)
+Completed 200 OK in 233ms (Views: 229.2ms | ActiveRecord: 1.3ms | Allocations: 8308)
+
+
+Started GET "/" for ::1 at 2022-10-16 00:22:45 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 111.9ms | Allocations: 6884)
+Completed 200 OK in 115ms (Views: 113.4ms | ActiveRecord: 0.0ms | Allocations: 7154)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 00:22:46 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1581)
+  Rendered layout layouts/application.html.erb (Duration: 51.6ms | Allocations: 8266)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.4ms | Allocations: 8523)
+
+
+Started GET "/" for ::1 at 2022-10-16 00:22:50 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6857)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 7126)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:05:29 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 636)
+  Rendered layout layouts/application.html.erb (Duration: 209.2ms | Allocations: 53975)
+Completed 200 OK in 298ms (Views: 220.5ms | ActiveRecord: 0.0ms | Allocations: 59754)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 13:05:42 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (1.1ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 105.2ms | Allocations: 18036)
+  Rendered layout layouts/application.html.erb (Duration: 140.2ms | Allocations: 24695)
+Completed 200 OK in 151ms (Views: 137.7ms | ActiveRecord: 9.6ms | Allocations: 25453)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 13:05:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-16 13:05:46 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 48.8ms | Allocations: 6890)
+Completed 200 OK in 60ms (Views: 49.2ms | ActiveRecord: 0.0ms | Allocations: 7169)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 13:06:21 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (2.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 48.0ms | Allocations: 1572)
+  Rendered layout layouts/application.html.erb (Duration: 81.2ms | Allocations: 8235)
+Completed 200 OK in 108ms (Views: 100.7ms | ActiveRecord: 2.3ms | Allocations: 8501)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:06:33 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 6872)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 7150)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:09:13 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 198.7ms | Allocations: 1941)
+  Rendered layout layouts/application.html.erb (Duration: 199.4ms | Allocations: 2008)
+Completed 500 Internal Server Error in 345ms (ActiveRecord: 0.0ms | Allocations: 2920)
+
+
+  
+ActionView::Template::Error (Missing partial Design1/layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               action_text/attachables/remote_image
+               active_storage/blobs/blob
+               action_text/contents/content
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery):
+    1: <%= render 'Design1/layouts/header' %> 
+  
+app/views/home/index.html.erb:1
+Started GET "/servers" for ::1 at 2022-10-16 13:09:15 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (1.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 139.3ms | Allocations: 3155)
+  Rendered layout layouts/application.html.erb (Duration: 435.6ms | Allocations: 11802)
+Completed 200 OK in 439ms (Views: 435.8ms | ActiveRecord: 1.9ms | Allocations: 12783)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:09:18 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 24.5ms | Allocations: 1775)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 1842)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 0.0ms | Allocations: 2086)
+
+
+  
+ActionView::Template::Error (Missing partial Design1/layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               action_text/attachables/remote_image
+               active_storage/blobs/blob
+               action_text/contents/content
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery):
+    1: <%= render 'Design1/layouts/header' %> 
+  
+app/views/home/index.html.erb:1
+Started GET "/" for ::1 at 2022-10-16 13:09:32 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1945)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2012)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms | Allocations: 2919)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               servers/form):
+    1: <%= render 'layouts/header' %> 
+  
+app/views/home/index.html.erb:1
+Started GET "/" for ::1 at 2022-10-16 13:09:35 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 1783)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 1850)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms | Allocations: 2094)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               servers/form):
+    1: <%= render 'layouts/header' %> 
+  
+app/views/home/index.html.erb:1
+Started GET "/" for ::1 at 2022-10-16 13:10:17 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 54.8ms | Allocations: 406)
+  Rendered home/index.html.erb within layouts/application (Duration: 61.9ms | Allocations: 628)
+  Rendered layout layouts/application.html.erb (Duration: 136.2ms | Allocations: 7869)
+Completed 200 OK in 160ms (Views: 138.4ms | ActiveRecord: 0.0ms | Allocations: 8800)
+
+
+Started GET "/drives" for ::1 at 2022-10-16 13:10:22 -0700
+Processing by DrivesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering drives/index.html.erb within layouts/application
+  [1m[36mDrive Load (0.8ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 758)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 7560)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.8ms | Allocations: 8309)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:10:23 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 120.5ms | Allocations: 6941)
+Completed 200 OK in 122ms (Views: 120.8ms | ActiveRecord: 0.0ms | Allocations: 7211)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 13:10:24 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  [1m[36mServer Load (0.8ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:4
+  Rendered servers/index.html.erb within layouts/application (Duration: 25.9ms | Allocations: 1870)
+  Rendered layout layouts/application.html.erb (Duration: 129.2ms | Allocations: 8546)
+Completed 200 OK in 133ms (Views: 131.0ms | ActiveRecord: 0.8ms | Allocations: 9292)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 13:10:24 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-16 13:10:49 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 406)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 628)
+  Rendered layout layouts/application.html.erb (Duration: 229.4ms | Allocations: 7768)
+Completed 200 OK in 235ms (Views: 231.8ms | ActiveRecord: 0.0ms | Allocations: 8702)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 13:10:50 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  [1m[36mServer Load (0.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:5
+  Rendered servers/index.html.erb within layouts/application (Duration: 128.2ms | Allocations: 2008)
+  Rendered layout layouts/application.html.erb (Duration: 201.7ms | Allocations: 8680)
+Completed 200 OK in 204ms (Views: 202.9ms | ActiveRecord: 0.3ms | Allocations: 9426)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:10:54 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 601.7ms | Allocations: 6941)
+Completed 200 OK in 603ms (Views: 602.4ms | ActiveRecord: 0.0ms | Allocations: 7211)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 13:10:56 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 71)
+  [1m[36mServer Load (0.7ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:5
+  Rendered servers/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1680)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 8344)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.7ms | Allocations: 8601)
+
+
+Started GET "/servers" for ::1 at 2022-10-16 13:11:07 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 406)
+  [1m[36mServer Load (0.7ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:5
+  Rendered servers/index.html.erb within layouts/application (Duration: 246.4ms | Allocations: 2341)
+  Rendered layout layouts/application.html.erb (Duration: 349.1ms | Allocations: 9251)
+Completed 200 OK in 352ms (Views: 350.4ms | ActiveRecord: 0.7ms | Allocations: 10170)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 13:11:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/servers" for ::1 at 2022-10-16 13:11:15 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 406)
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:5
+  Rendered servers/index.html.erb within layouts/application (Duration: 250.6ms | Allocations: 2299)
+  Rendered layout layouts/application.html.erb (Duration: 418.8ms | Allocations: 9319)
+Completed 200 OK in 421ms (Views: 419.7ms | ActiveRecord: 0.6ms | Allocations: 10237)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 13:11:15 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/servers" for ::1 at 2022-10-16 13:11:27 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 406)
+  [1m[36mServer Load (0.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:5
+  Rendered servers/index.html.erb within layouts/application (Duration: 47.4ms | Allocations: 2344)
+  Rendered layout layouts/application.html.erb (Duration: 275.1ms | Allocations: 9442)
+Completed 200 OK in 279ms (Views: 276.3ms | ActiveRecord: 0.9ms | Allocations: 10360)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 13:11:27 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/servers" for ::1 at 2022-10-16 13:21:56 -0700
+Processing by ServersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering servers/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 514)
+  [1m[36mServer Load (1.3ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:5
+  Rendered servers/index.html.erb within layouts/application (Duration: 78.1ms | Allocations: 2562)
+  Rendered layout layouts/application.html.erb (Duration: 345.6ms | Allocations: 9562)
+Completed 200 OK in 353ms (Views: 349.9ms | ActiveRecord: 2.5ms | Allocations: 10480)
+
+
+Started GET "/img/card-left.jpg" for ::1 at 2022-10-16 13:21:57 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/img/card-left.jpg"):
+  
+Started GET "/" for ::1 at 2022-10-16 13:22:03 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 115.6ms | Allocations: 7176)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms | Allocations: 7934)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:22:06 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 202.9ms | Allocations: 6937)
+Completed 200 OK in 205ms (Views: 203.5ms | ActiveRecord: 0.0ms | Allocations: 7205)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:22:23 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 94.3ms | Allocations: 506)
+  Rendered home/index.html.erb within layouts/application (Duration: 98.7ms | Allocations: 733)
+  Rendered layout layouts/application.html.erb (Duration: 210.1ms | Allocations: 7966)
+Completed 200 OK in 222ms (Views: 214.0ms | ActiveRecord: 0.0ms | Allocations: 8897)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:23:35 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 80.1ms | Allocations: 687)
+  Rendered home/index.html.erb within layouts/application (Duration: 83.1ms | Allocations: 909)
+  Rendered layout layouts/application.html.erb (Duration: 306.2ms | Allocations: 7959)
+Completed 200 OK in 315ms (Views: 312.4ms | ActiveRecord: 0.0ms | Allocations: 8890)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:23:50 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 8.5ms | Allocations: 499)
+  Rendered home/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 721)
+  Rendered layout layouts/application.html.erb (Duration: 73.7ms | Allocations: 7769)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms | Allocations: 8701)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:31:05 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 72.0ms | Allocations: 499)
+  Rendered home/index.html.erb within layouts/application (Duration: 74.6ms | Allocations: 722)
+  Rendered layout layouts/application.html.erb (Duration: 478.3ms | Allocations: 7758)
+Completed 200 OK in 493ms (Views: 485.6ms | Allocations: 8689)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:31:38 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 9.4ms | Allocations: 499)
+  Rendered home/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 721)
+  Rendered layout layouts/application.html.erb (Duration: 194.3ms | Allocations: 7771)
+Completed 200 OK in 199ms (Views: 196.5ms | Allocations: 8702)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:34:02 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 35.3ms | Allocations: 503)
+  Rendered home/index.html.erb within layouts/application (Duration: 36.4ms | Allocations: 725)
+  Rendered layout layouts/application.html.erb (Duration: 263.5ms | Allocations: 7788)
+Completed 200 OK in 269ms (Views: 267.0ms | Allocations: 8719)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:34:43 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 24.0ms | Allocations: 503)
+  Rendered home/index.html.erb within layouts/application (Duration: 25.1ms | Allocations: 725)
+  Rendered layout layouts/application.html.erb (Duration: 98.6ms | Allocations: 7765)
+Completed 200 OK in 107ms (Views: 104.0ms | Allocations: 8696)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:34:55 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.9ms | Allocations: 502)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 724)
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 7758)
+Completed 200 OK in 39ms (Views: 37.8ms | Allocations: 8689)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:35:49 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 80.3ms | Allocations: 6926)
+Completed 200 OK in 82ms (Views: 80.9ms | Allocations: 7194)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:37:14 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 71)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 47.7ms | Allocations: 6935)
+Completed 200 OK in 49ms (Views: 48.3ms | Allocations: 7202)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:41:29 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 71)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 88.6ms | Allocations: 7043)
+Completed 200 OK in 92ms (Views: 89.4ms | Allocations: 7311)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:42:19 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 500)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 725)
+  Rendered layout layouts/application.html.erb (Duration: 120.5ms | Allocations: 7890)
+Completed 200 OK in 124ms (Views: 123.0ms | Allocations: 8822)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:43:05 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 6.8ms | Allocations: 503)
+  Rendered home/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 726)
+  Rendered layout layouts/application.html.erb (Duration: 174.3ms | Allocations: 7879)
+Completed 200 OK in 186ms (Views: 177.7ms | Allocations: 8810)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:43:22 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 58.9ms | Allocations: 507)
+  Rendered home/index.html.erb within layouts/application (Duration: 60.1ms | Allocations: 729)
+  Rendered layout layouts/application.html.erb (Duration: 77.7ms | Allocations: 7765)
+Completed 200 OK in 82ms (Views: 80.5ms | Allocations: 8696)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:43:42 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.3ms | Allocations: 511)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 733)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 7774)
+Completed 200 OK in 40ms (Views: 37.0ms | Allocations: 8706)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:43:53 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 16.2ms | Allocations: 516)
+  Rendered home/index.html.erb within layouts/application (Duration: 17.7ms | Allocations: 738)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 7774)
+Completed 200 OK in 45ms (Views: 42.9ms | Allocations: 8705)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:46:06 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 6933)
+Completed 200 OK in 28ms (Views: 26.5ms | Allocations: 7201)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:46:27 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 61.4ms | Allocations: 513)
+  Rendered home/index.html.erb within layouts/application (Duration: 63.1ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 131.7ms | Allocations: 7773)
+Completed 200 OK in 137ms (Views: 136.0ms | Allocations: 8704)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:46:33 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 31.2ms | Allocations: 514)
+  Rendered home/index.html.erb within layouts/application (Duration: 32.5ms | Allocations: 736)
+  Rendered layout layouts/application.html.erb (Duration: 80.9ms | Allocations: 7855)
+Completed 200 OK in 84ms (Views: 82.5ms | Allocations: 8786)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:46:44 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 14.0ms | Allocations: 513)
+  Rendered home/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 60.2ms | Allocations: 7773)
+Completed 200 OK in 65ms (Views: 63.0ms | Allocations: 8704)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:46:59 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 9.2ms | Allocations: 514)
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 736)
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 7768)
+Completed 200 OK in 48ms (Views: 46.9ms | Allocations: 8699)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:47:03 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 69.1ms | Allocations: 6925)
+Completed 200 OK in 73ms (Views: 70.0ms | Allocations: 7193)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:47:49 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 318)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 540)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 7683)
+Completed 200 OK in 34ms (Views: 32.2ms | Allocations: 8615)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:47:56 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 516)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 741)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 7904)
+Completed 200 OK in 25ms (Views: 21.6ms | Allocations: 8836)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:50:02 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 10.5ms | Allocations: 519)
+  Rendered home/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 741)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 7981)
+Completed 200 OK in 26ms (Views: 25.4ms | Allocations: 8913)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:50:53 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 17.1ms | Allocations: 515)
+  Rendered home/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 737)
+  Rendered layout layouts/application.html.erb (Duration: 78.5ms | Allocations: 7894)
+Completed 200 OK in 82ms (Views: 80.2ms | Allocations: 8825)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:50:54 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 159.7ms | Allocations: 6939)
+Completed 200 OK in 161ms (Views: 160.1ms | Allocations: 7207)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:51:04 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 22.9ms | Allocations: 515)
+  Rendered home/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 737)
+  Rendered layout layouts/application.html.erb (Duration: 103.0ms | Allocations: 7765)
+Completed 200 OK in 110ms (Views: 108.4ms | Allocations: 8697)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:51:15 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 15.3ms | Allocations: 515)
+  Rendered home/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 738)
+  Rendered layout layouts/application.html.erb (Duration: 103.7ms | Allocations: 7770)
+Completed 200 OK in 107ms (Views: 105.8ms | Allocations: 8701)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:51:20 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 6929)
+Completed 200 OK in 27ms (Views: 25.4ms | Allocations: 7197)
+
+
+Started GET "/" for ::1 at 2022-10-16 13:52:41 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.6ms | Allocations: 517)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 739)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 7791)
+Completed 200 OK in 26ms (Views: 18.4ms | Allocations: 8722)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:01:57 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 10.0ms | Allocations: 527)
+  Rendered home/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 7799)
+Completed 200 OK in 34ms (Views: 31.8ms | Allocations: 8730)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:02:00 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 48.3ms | Allocations: 6943)
+Completed 200 OK in 50ms (Views: 48.7ms | Allocations: 7211)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:02:36 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 25.2ms | Allocations: 515)
+  Rendered home/index.html.erb within layouts/application (Duration: 30.1ms | Allocations: 737)
+  Rendered layout layouts/application.html.erb (Duration: 49.1ms | Allocations: 7775)
+Completed 200 OK in 60ms (Views: 52.6ms | Allocations: 8706)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:02:46 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 34.7ms | Allocations: 513)
+  Rendered home/index.html.erb within layouts/application (Duration: 35.8ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 60.6ms | Allocations: 7894)
+Completed 200 OK in 67ms (Views: 63.7ms | Allocations: 8826)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:03:02 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 516)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 743)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 7905)
+Completed 200 OK in 39ms (Views: 37.4ms | Allocations: 8837)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:03:11 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 513)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 736)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 7900)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 8832)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:03:17 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.6ms | Allocations: 515)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 737)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 7884)
+Completed 200 OK in 20ms (Views: 17.9ms | Allocations: 8815)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:03:59 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 513)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 7781)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 8712)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:04:42 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 18.6ms | Allocations: 314)
+  Rendered home/index.html.erb within layouts/application (Duration: 20.4ms | Allocations: 536)
+  Rendered layout layouts/application.html.erb (Duration: 54.7ms | Allocations: 7571)
+Completed 200 OK in 60ms (Views: 57.7ms | Allocations: 8503)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:05:08 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 6864)
+Completed 200 OK in 27ms (Views: 25.1ms | Allocations: 7132)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:05:09 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 6858)
+Completed 200 OK in 57ms (Views: 56.5ms | Allocations: 7125)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:05:18 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 6.5ms | Allocations: 514)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 737)
+  Rendered layout layouts/application.html.erb (Duration: 143.9ms | Allocations: 7773)
+Completed 200 OK in 147ms (Views: 145.8ms | Allocations: 8704)
+
+
+Started GET "/" for ::1 at 2022-10-16 14:05:22 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 7011)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 7279)
+
+
+Started GET "/" for ::1 at 2022-10-17 07:58:25 -0700
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 71)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 431.7ms | Allocations: 6927)
+Completed 200 OK in 479ms (Views: 433.4ms | Allocations: 7194)
+
+
+Started GET "/" for ::1 at 2022-11-16 21:46:45 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (31.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 10.2ms | Allocations: 542)
+  Rendered home/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 972)
+  Rendered layout layouts/application.html.erb (Duration: 410.3ms | Allocations: 116877)
+Completed 500 Internal Server Error in 472ms (ActiveRecord: 0.0ms | Allocations: 122626)
+
+
+  
+ActionView::Template::Error (The asset "inter-font.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2022-11-16 21:50:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 542)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 972)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1192)
+Completed 200 OK in 16ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6971)
+
+
+Started GET "/" for ::1 at 2022-11-16 21:56:07 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 529)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3906)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 9655)
+
+
+  
+ActionView::Template::Error (The asset "tailwind.css" is not present in the asset pipeline.
+):
+    1:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    2:     <%= csrf_meta_tags %>
+    3:     <%= csp_meta_tag %>
+    4:     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+    5:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    6:     <%= javascript_importmap_tags %>
+    7:   </head>
+  
+app/views/layouts/application.html.erb:4
+Started GET "/" for ::1 at 2022-11-16 21:57:26 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 32.6ms | Allocations: 531)
+Completed 200 OK in 169ms (Views: 67.6ms | ActiveRecord: 0.0ms | Allocations: 6396)
+
+
+Started GET "/drives" for ::1 at 2022-11-16 21:57:30 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (15.8ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 25.0ms | Allocations: 766)
+Completed 200 OK in 29ms (Views: 10.8ms | ActiveRecord: 15.8ms | Allocations: 1554)
+
+
+Started GET "/" for ::1 at 2022-11-16 21:57:32 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 128)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 21:57:33 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  Rendered servers/index.html.erb (Duration: 27.6ms | Allocations: 2743)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 3511)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               servers/form):
+    1: <%= render 'layouts/header' %> 
+    2: <h1>Servers</h1>
+    3: 
+    4: <ul>
+  
+app/views/servers/index.html.erb:1
+Started GET "/servers" for ::1 at 2022-11-16 21:57:36 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  Rendered servers/index.html.erb (Duration: 4.1ms | Allocations: 1677)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1949)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               servers/form):
+    1: <%= render 'layouts/header' %> 
+    2: <h1>Servers</h1>
+    3: 
+    4: <ul>
+  
+app/views/servers/index.html.erb:1
+Started GET "/servers" for ::1 at 2022-11-16 21:58:00 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  Rendered servers/index.html.erb (Duration: 5.1ms | Allocations: 2019)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 2998)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/micah.perez/Ruby/Server-Manager/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actiontext-7.0.4/app/views"
+  * "/Users/micah.perez/.rvm/gems/ruby-2.7.5/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               servers/form):
+    1: <%= render 'layouts/header' %> 
+    2: <h1>Servers</h1>
+    3: 
+    4: <ul>
+  
+app/views/servers/index.html.erb:1
+Started GET "/drives" for ::1 at 2022-11-16 21:58:26 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (0.3ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 1.6ms | Allocations: 747)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1750)
+
+
+Started GET "/" for ::1 at 2022-11-16 21:58:27 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 2.1ms | Allocations: 298)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 1087)
+
+
+Started GET "/" for ::1 at 2022-11-16 21:59:20 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.1ms | Allocations: 531)
+Completed 200 OK in 15ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 6396)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 21:59:24 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  Rendered servers/index.html.erb (Duration: 3.6ms | Allocations: 2315)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3083)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Drives</h1>
+    2: 
+    3: <ul>
+    4:   <% @drives.each do |drive| %>
+    5:     <li>
+    6:       <%= link_to drive.name, drive %>
+    7:     </li>
+  
+app/views/servers/index.html.erb:4
+Started GET "/drives" for ::1 at 2022-11-16 21:59:27 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (0.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 2.0ms | Allocations: 766)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 1554)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:00:39 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 3.8ms | Allocations: 531)
+Completed 200 OK in 29ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 6396)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:00:40 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (12.7ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 42.8ms | Allocations: 17086)
+Completed 200 OK in 50ms (Views: 27.9ms | ActiveRecord: 16.0ms | Allocations: 17874)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:00:43 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 128)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:00:44 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 2.2ms | Allocations: 718)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1014)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:00:47 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 122)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 430)
+
+
+Started GET "/drives" for ::1 at 2022-11-16 22:00:48 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (1.5ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 6.4ms | Allocations: 755)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 1.5ms | Allocations: 1534)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:00:49 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 127)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 427)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:00:50 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (0.8ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 2.7ms | Allocations: 725)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.8ms | Allocations: 1012)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:01:36 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.3ms | Allocations: 531)
+Completed 200 OK in 47ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 6396)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:01:37 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (1.1ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 22.4ms | Allocations: 17043)
+Completed 200 OK in 27ms (Views: 17.5ms | ActiveRecord: 6.5ms | Allocations: 17831)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:01:39 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 128)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/drives" for ::1 at 2022-11-16 22:01:39 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (1.4ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 5.0ms | Allocations: 761)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.4ms | Allocations: 1549)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:01:40 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 128)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:01:41 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 2.3ms | Allocations: 694)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.6ms | Allocations: 982)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:01:42 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 121)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 420)
+
+
+Started GET "/drives" for ::1 at 2022-11-16 22:01:43 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (0.7ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 2.4ms | Allocations: 563)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.7ms | Allocations: 850)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:01:43 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 121)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 420)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:01:44 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (0.9ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 6.4ms | Allocations: 691)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.9ms | Allocations: 977)
+
+
+Started GET "/" for ::1 at 2022-11-16 22:01:45 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 121)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 420)
+
+
+Started GET "/servers" for ::1 at 2022-11-16 22:02:02 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (0.5ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 1.6ms | Allocations: 686)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.5ms | Allocations: 972)
+
+
+Started GET "/servers/1" for ::1 at 2022-11-16 22:02:04 -0800
+Processing by ServersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mServer Load (0.4ms)[0m  [1m[34mSELECT `servers`.* FROM `servers` WHERE `servers`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/servers_controller.rb:7:in `show'
+  Rendering servers/show.html.erb
+  Rendered servers/show.html.erb (Duration: 8.6ms | Allocations: 319)
+Completed 200 OK in 35ms (Views: 9.0ms | ActiveRecord: 0.4ms | Allocations: 4903)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-16 22:03:07 -0800
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 1.4ms | Allocations: 531)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 6396)
+
+
+Started GET "/servers" for 127.0.0.1 at 2022-11-16 22:03:08 -0800
+Processing by ServersController#index as HTML
+  Rendering servers/index.html.erb
+  [1m[36mServer Load (0.6ms)[0m  [1m[34mSELECT `servers`.* FROM `servers`[0m
+  ↳ app/views/servers/index.html.erb:3
+  Rendered servers/index.html.erb (Duration: 22.4ms | Allocations: 17043)
+Completed 200 OK in 33ms (Views: 20.1ms | ActiveRecord: 8.0ms | Allocations: 17831)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-16 22:03:09 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 128)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/drives" for 127.0.0.1 at 2022-11-16 22:03:10 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (0.5ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 3.3ms | Allocations: 761)
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 0.5ms | Allocations: 1549)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-16 22:03:11 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 128)
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 437)
+
+
+Started GET "/drives" for 127.0.0.1 at 2022-11-16 22:03:12 -0800
+Processing by DrivesController#index as HTML
+  Rendering drives/index.html.erb
+  [1m[36mDrive Load (0.8ms)[0m  [1m[34mSELECT `drives`.* FROM `drives`[0m
+  ↳ app/views/drives/index.html.erb:4
+  Rendered drives/index.html.erb (Duration: 2.5ms | Allocations: 558)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.8ms | Allocations: 845)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-16 22:03:12 -0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 121)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 420)
+
+
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:14:53 +0000
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:14:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:14:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:14:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:15:00 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:16:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:16:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.18.0.1 at 2022-11-17 06:17:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.19.0.1 at 2022-11-17 06:20:59 +0000
+Cannot render console from 172.19.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.20.0.1 at 2022-11-17 06:36:12 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 172.20.0.1 at 2022-11-17 06:45:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/run/mysqld/mysqld.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-11-16 23:20:22 -0800
+  
+ActiveRecord::ConnectionNotEstablished (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:53:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:43:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `mysql2_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
